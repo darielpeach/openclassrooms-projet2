@@ -53,7 +53,7 @@
 
     /*********** Activités Marseille Sur Tablette *****************/
 
-    .activites-cards div {
+    .activites-cards article {
         width: 13em;
         height: 17em;
 
@@ -62,4 +62,10 @@
     .activites-cards img {
         height: 80%;
     }
+    
+    .footer {
+        gap: 11%;
+    }
 }
+
+

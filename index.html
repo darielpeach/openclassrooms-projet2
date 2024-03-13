@@ -39,7 +39,7 @@
                     <h1 class="section-title">Trouvez votre hébergement pour des vacances de rève</h1>
                     <p class="padding-ajustement">En plein centre-ville ou en pleine nature</p>
                 </div>
-                    <form class="recherche alignement" action="" method="get">
+                    <form class="recherche alignement" action="#" method="get">
                         <i class="fa-solid fa-location-dot position"></i>
                         <input class="barre-recherche" type="search" name="recherche" placeholder="Rechercher" style="font-weight: bold;">
                         <input class="bouton-recherche" type="submit" value="Rechercher">
@@ -51,20 +51,20 @@
                             <div class="filtre">
                                 <p><b>Filtres</b></p>
                             </div>
-                            <div>
+                            <div class="filtre-effet">
                                 <button class="bouton-filtre" type="button"><span><i class="fa-solid fa-money-bill-wave"></i></span> Économique</button>
                                 <button class="bouton-filtre" type="button"><span><i class="fa-solid fa-person"></i></span> Familial</button>
                                 <button class="bouton-filtre" type="button"><span><i class="fa-solid fa-heart"></i></span> Romantique</button>
                                 <button class="bouton-filtre" type="button"><span><i class="fa-solid fa-fire"></i></span> Nos pépites</button>
                             </div>
                 </div> 
-                <p class="info"><span><i class="fa-solid fa-info"></span></i> Plus de 500 logements sont disponibles dans cette ville</p> 
+                <p class="info"><span><i class="fa-solid fa-info"></i></span> Plus de 500 logements sont disponibles dans cette ville</p> 
             </section>
             <div class="hebergements-and-populaires">
                 <!-- Hébergement à Marseille-->
-                <section class="hebergements">
+                <section class="hebergements card-style">
                     <h2 id="hebergements" class="section-title">Hébergements à Marseille</h2>
-                    <div class="alignement gap">
+                    <div class="hebergement-direction">
                         <div class="hebergement-cards"><!-- Carte de l'hotel du port-->
                             <a href="#">
                                 <article class="card column">
@@ -129,7 +129,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="alignement gap">
+                    <div class="hebergement-direction">
                         <div class="hebergement-cards"><!-- Carte hotel de la mer-->
                             <a href="#">
                                 <article class="card column">
@@ -194,7 +194,7 @@
                             </a>
                         </div>
                     </div>
-                    <h4>Afficher plus</h4>
+                    <h3>Afficher plus</h3>
                 </section>
                 <!-- Les plus populaires-->
                 <section class="populaires">
@@ -202,7 +202,7 @@
                         <h2 class="section-title">Les plus populaires</h2>
                         <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
                     </div>
-                    <div class="populaires-cards">
+                    <div class="populaires-cards card-style">
                         <a href="#">
                             <article class="card">
                                 <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit">
@@ -266,32 +266,32 @@
             <div>
                 <!-- Activité à Marseille-->
                 <h2 id="activites" class="section-title">Activités à Marseille</h2>
-                <section class="activites-cards alignement gap">
-                    <div>
+                <div class="activites card-style">
+                    <article class="activites-cards card">
                         <a href="#">
-                            <img src="./images/activites/reno-laithienne.jpg">
+                            <img src="./images/activites/reno-laithienne.jpg" alt="Vieux Port">
                             <h3 class="card-title">Vieux-Port</h3>
                         </a>
-                    </div>
-                    <div>
+                    </article>
+                    <article class="activites-cards card">
                         <a href="#">
-                            <img src="./images/activites/paul-hermann.jpg">
+                            <img src="./images/activites/paul-hermann.jpg" alt="Fort de Pomègues">
                             <h3 class="card-title">Fort de Pomègues</h3>
                         </a>
-                    </div>
-                    <div>
+                    </article>
+                    <article class="activites-cards card">
                         <a href="#">
-                            <img src="./images/activites/kilyan-sockalingum.jpg">
+                            <img src="./images/activites/kilyan-sockalingum.jpg" alt="Parc national des Calanques">
                             <h3 class="card-title">Parc national des Calanques</h3>
                         </a>
-                    </div>
-                    <div>
+                    </article>
+                    <article class="activites-cards card">
                         <a href="#">
-                            <img src="./images/activites/florian-wehde.jpg">
+                            <img src="./images/activites/florian-wehde.jpg" alt="Notre-Dame-de-la-Garde">
                             <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
                         </a>
-                    </div>
-                </section>
+                    </article>
+                </div>
             </div>
         </main>
         <footer class="footer">
