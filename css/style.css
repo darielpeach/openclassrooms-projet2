@@ -88,16 +88,12 @@ a {
 /***** Section recherche *****/
 
 .recherche {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     margin-bottom: 20px;
     position: relative;
 }
 
 .barre-recherche {
     border-radius: 20px;
-    border-width: 0px;
     border: #F2F2F2 solid 1px;
     margin-top: 1em;
     margin-left: -50px;
@@ -115,7 +111,6 @@ a {
     color: white;
     background-color: #0065FC;
     border-radius: 0px 15px 15px 0px;
-    border-color:#0065FC ;
     border-style: hidden;
     font-weight: 700;
     font-size: 16px;
@@ -137,7 +132,7 @@ a {
 
 .bouton-loupe {
     visibility: hidden;
-    overflow: hidden;
+    
 }
 
 /***** Filtre *****/
@@ -231,7 +226,6 @@ a {
     width: 100%;
     height: 120px;
     border-radius: 20px 20px 0px 0px;
-    
 }
 
 .hebergement-cards .card-title {
